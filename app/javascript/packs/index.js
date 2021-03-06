@@ -7,8 +7,6 @@ import AddItemForm from '../components/AddItemForm';
 
 render(
   <Provider>
-    <UserInfo />
-    <AddItemForm />
     <Library />
   </Provider>,
   document.querySelector('#root')
